@@ -1,0 +1,16 @@
+name: OmniRoute
+version: "3.7.8"
+slug: omniroute
+description: AI Gateway — free multi-provider LLM router (160+ providers)
+url: "https://github.com/diegosouzapw/OmniRoute"
+arch:
+  - amd64
+  - aarch64
+init: false
+startup: application
+boot: auto
+ports:
+  20128/tcp: 20128
+ports_description:
+  20128/tcp: "Dashboard / API"
+webui: "http://[HOST]:[PORT:20128]"
